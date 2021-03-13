@@ -1,7 +1,11 @@
 <template>
-  <div class="bg-black bg-opacity-50 text-white inline-block px-1">
-    {{ nowText }}
-  </div>
+  <svg
+    viewBox="0 0 145 20"
+    xmlns="http://www.w3.org/2000/svg"
+    class="bg-black bg-opacity-50 w-full"
+  >
+    <text x="5" y="14" fill="white" style="font: 12px sans-serif">{{ nowText }}</text>
+  </svg>
 </template>
 
 <script lang="ts">
