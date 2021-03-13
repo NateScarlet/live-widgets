@@ -1,0 +1,1 @@
+import"./index.d9ab69fd.js";import{d as n,c as a,o,a as r}from"./vendor.bcc790d2.js";var e=n({name:"App",components:{}});const s={class:"underline",href:"clock.html"};e.render=function(n,r,e,c,d,t){return o(),a("a",s,"时钟组件")},r(e).mount("#app");
