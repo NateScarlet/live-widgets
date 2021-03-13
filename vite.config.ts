@@ -5,9 +5,11 @@ import { resolve } from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base: "",
   build: {
     rollupOptions: {
       input: {
+        index: resolve(__dirname, "index.html"),
         clock: resolve(__dirname, "clock.html"),
       },
     },

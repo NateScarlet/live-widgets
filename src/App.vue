@@ -1,5 +1,5 @@
 <template>
-  <a href="/clock.html">时钟组件</a>
+  <a class="underline" href="clock.html">时钟组件</a>
 </template>
 
 <script lang="ts">
