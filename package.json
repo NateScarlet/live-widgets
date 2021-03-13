@@ -1,0 +1,25 @@
+{
+  "name": "live-widgets",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "luxon": "^1.26.0",
+    "moment": "^2.29.1",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.34",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.5"
+  }
+}

@@ -1,0 +1,14 @@
+@import "@mdi/font/css/materialdesignicons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+}
+
+@layer utilities {
+  .keep-all {
+    word-break: keep-all;
+  }
+}
