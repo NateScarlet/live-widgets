@@ -1,0 +1,1 @@
+import{d as s,c as p,o as r,a}from"./runtime-dom.esm-bundler-de3ea6a2.js";const _=s({name:"App",components:{}}),u=(e,t)=>{const o=e.__vccOpts||e;for(const[n,c]of t)o[n]=c;return o},m={class:"underline",href:"clock.html"};function f(e,t,o,n,c,d){return r(),p("a",m,"时钟组件")}const l=u(_,[["render",f]]);a(l).mount("#app");
